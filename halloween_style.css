@@ -1,0 +1,162 @@
+body{
+    background: url("https://codepen.io/amiangie/pen/RRdQAb/image/large.png");
+}
+main{
+    position: absolute;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes updown {
+    0% {
+        top: 30px;
+    }
+    50% {
+        top:70px;
+    }
+    100% {
+        top: 30px;
+    }
+}
+.ghost {
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    top: 170px;
+    left: 250px;
+    border-radius: 100px 0 0 190px; 
+}
+.hand {
+    position: absolute;
+    width: 23px;
+    height: 50px;
+    background-color: white;
+    top: 280px;
+    left: 240px;
+    transform: rotate(245deg);
+    border-radius: 15px;
+}
+.mouth {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-color: black;
+    border-radius: 50%;
+    top: 260px;
+    left: 295px;
+}
+.eye1{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-color: black;
+    border-radius: 50%;
+    top: 225px;
+    left: 330px;
+}
+.eye2 {
+    position: absolute;
+    top: 225px;
+    left: 271px;
+    width: 23px;
+    height: 23px;
+    background-color: black;
+    border-radius: 50%;
+}
+.blush1, .blush2{
+    position: absolute;
+    width: 23px;
+    height: 17px;
+    background-color: pink;
+    border-radius: 50%;
+}
+.blush1 {
+    top: 251px;
+    left: 265px;
+    transform: rotate(25deg);
+}
+.blush2 {
+    top: 251px;
+    left: 335px;
+    transform: rotate(-25deg);
+}
+.eyeref1, .eyeref2 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.eyeref1 {
+    top: 228px;
+    left: 274px;
+}
+.eyeref2 {
+    top: 228px;
+    left: 333px;
+}
+.eyeref3, .eyeref4 {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+.eyeref3 {
+    top: 239px;
+    left: 284px;
+}
+.eyeref4 {
+    top: 239px;
+    left: 344px;
+}
+.hatsemi {
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(22deg);
+    top: 155px;
+    left: 275px;
+}
+.hattriangle {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-width: 0px 53px 115px 53px;
+    border-style: solid;
+    border-color: black transparent;
+    transform: rotate(22deg);
+    top: 56px;
+    left: 332px;
+}
+.trapezoid {
+    position: absolute;
+    border-bottom: 17px solid darkorange;
+    border-left: 9px solid transparent;
+    border-right: 8px solid transparent;
+    height: 0;
+    width: 80px;
+    transform: rotate(22deg);
+    top: 140px;
+    left: 322px;
+}
+.moon {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    left: 70px;
+    top: 50px; 
+    box-shadow:0 10px 10px 10px rgba(255,255,255,0.19), 0 6px 6px rgba(255,255,255,0.23);
+}
+img {
+    position: absolute;
+    width: 250px;
+    top: 265px;
+    left: 85px;
+    transform: rotate(30deg);
+}
